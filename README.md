@@ -8,10 +8,10 @@ and can take a variable amount of files which may contain commands as input. Exa
 ./hashtable 10 file1 file2 - reading commands from file1 and file2.
 
 ## Permitted commands:
-  help - Prints a list of accepted commands
-  add <word> - Adds a word to the hashtable
-  remove <word> - Removes a word from the hashtable
-  print_bucket <index> [file] - Prints the bucket with the corresponding index
-  print [file] - Prints the whole hashtable
-  resize <halve/double> - Resizes the hashtable and moves all entries
+  * _help_ - Prints a list of accepted commands
+  * _add <word>_ - Adds a word to the hashtable
+  * _remove <word>_ - Removes a word from the hashtable
+  * _print_bucket <index> [file]+ - Prints the bucket with the corresponding index
+  * _print [file]+ - Prints the whole hashtable
+  * _resize <halve/double>+ - Resizes the hashtable and moves all entries
   <arg> means mandatory argument, whereas [arg] means optional argument
