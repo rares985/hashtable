@@ -9,9 +9,9 @@ and can take a variable amount of files which may contain commands as input. Exa
 
 ## Permitted commands:
   * _help_ - Prints a list of accepted commands
-  * _add <word>_ - Adds a word to the hashtable
-  * _remove <word>_ - Removes a word from the hashtable
-  * _print_bucket <index> [file]+ - Prints the bucket with the corresponding index
-  * _print [file]+ - Prints the whole hashtable
-  * _resize <halve/double>+ - Resizes the hashtable and moves all entries
+  * _add_ <word> - Adds a word to the hashtable
+  * _remove_ <word> - Removes a word from the hashtable
+  * _print\_bucket_ <index> [file]+ - Prints the bucket with the corresponding index
+  * _print_ [file] - Prints the whole hashtable
+  * _resize_ <halve/double> - Resizes the hashtable and moves all entries
   <arg> means mandatory argument, whereas [arg] means optional argument
